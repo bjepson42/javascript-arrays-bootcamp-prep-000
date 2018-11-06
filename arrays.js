@@ -26,11 +26,10 @@ function destructivelyAddElementToEndOfArray(arr, foo) {
 }
 
 function accessElementInArray(arr, foo) {
-  return arr[index]
+  return arr[foo]
 }
 
 function destructivelyRemoveElementFromBeginningOfArray(arr, foo) {
-
   return arr
 }
 
