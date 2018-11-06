@@ -30,12 +30,12 @@ function accessElementInArray(arr, foo) {
 }
 
 function destructivelyRemoveElementFromBeginningOfArray(arr, foo) {
-  return arr
+
+  return arr.shift()
 }
 
 function removeElementFromBeginningOfArray(arr, foo) {
-
-  return arr
+  return arr.slice(1)
 }
 
 function destructivelyRemoveElementFromEndOfArray(arr, foo) {
