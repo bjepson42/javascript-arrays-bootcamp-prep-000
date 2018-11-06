@@ -11,17 +11,43 @@ function addElementToBeginningOfArray(arr, foo) {
   return bar
 }
 
-function destructivelyAddElementToBeginningOfArray(foo) {
+function destructivelyAddElementToBeginningOfArray(arr, foo) {
+    arr.unshift(foo)
+    return arr
+}
+
+function addElementToEndOfArray(arr, foo) {
 
 
 }
 
-function addElementToEndOfArray(foo) {
 
-
+function destructivelyAddElementToEndOfArray(arr, foo) {
+    arr.push(foo)
+    return arr
 }
 
+function accessElementInArray(arr, foo) {
 
-function destructivelyAddElementToEndOfArray(foo) {
+  return arr
+}
 
+function destructivelyRemoveElementFromBeginningOfArray(arr, foo) {
+
+  return arr
+}
+
+function removeElementFromBeginningOfArray(arr, foo) {
+
+  return arr
+}
+
+function destructivelyRemoveElementFromEndOfArray(arr, foo) {
+
+  return arr
+}
+
+function removeElementFromEndOfArray(arr, foo) {
+
+  return arr
 }
