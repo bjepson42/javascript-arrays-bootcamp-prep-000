@@ -43,7 +43,7 @@ function destructivelyRemoveElementFromEndOfArray(arr, foo) {
   return arr
 }
 
-function removeElementFromEndOfArray(arr, foo) {
+function removeElementFromEndOfArray(arr) {
   var arr2 = [];
   arr2 = arr
   arr2.pop()
